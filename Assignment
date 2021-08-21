@@ -1,0 +1,51 @@
+1 + public class Overloading{
+2 +
+3 + //addition method of parameter a and b
+4 +
+5 + void addition( int a ,int b){
+6 +
+7 + int sum =a+b;
+8 +
+9 + system .out. printIn("sum Of two numbers"sum);
+10 +
+11 +}
+12 +
+13 + // addition method of parameter a,b and c
+14 +
+15 + void addition ( int a,int b,int c){
+16 + 
+17 + int sum a+b+c;
+18 +
+19 + System.out.printIn(" sum of three numbers is " sum);
+20 +
+21 + }
+22 +
+23 + public static void main ( String args[]){
+24 + 
+25 + Overloading ovl= new Overloading();
+26 + ovl. addition (2,ovl.addition(2,5,10);
+27 ovl.addition(15,10);
+
+ overriding ord= new overriding();
+ ord.multiplication(50,30);
+ ord.multiplication(70,80);
+ }
+ }
+
+
+ class overriding{  
+   //defining a method  
+   void multiplication(int x,int y)
+ {
+ int mul=x*y;
+ System.out.println("multiplication of two numbers:"+mul);
+ }  
+ }  
+ //Creating a child class  
+ class multiplication2 extends overriding{  
+   //defining the same method as in the parent class  
+   void multiplication(int p,int q)
+ {
+    int mul =p*q;
+ System.out.println("multiplication of two numbers is:"+mul);}  
+ }  
